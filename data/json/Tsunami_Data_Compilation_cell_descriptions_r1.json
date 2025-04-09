@@ -155,23 +155,23 @@
         "display": "Yes",
         "description": "Published maximum calibrated age for candidate paleoseismic evidence in calendar years before present (1950 CE)."
     },
-    "Inferred to record 1700 CE Maximum": {
+    "Inferred to record 1700 CE": {
         "display": "Yes",
         "description": "A yes/no entry for whether the event is inferred to correlate with the inferred 1700 CE full-margin Cascadia earthquake."
     },
-    "Inferred most likely evidence source Maximum": {
+    "Inferred most likely evidence source": {
         "display": "Yes",
         "description": "The published most likely source for an event."
     },
-    "Other possible evidence source interpretations Maximum": {
+    "Other possible evidence source interpretations": {
         "display": "Yes",
         "description": "The published alternative sources for an event."
     },
-    "Reference Maximum": {
+    "Reference": {
         "display": "Yes",
         "description": "Literature reference for the compiled information."
     },
-    "Notes Maximum": {
+    "Notes": {
         "display": "Yes",
         "description": "Notes from compilers that may be specifically useful for interpreting the paleoseismic evidence compiled for this specific site or event."
     }
