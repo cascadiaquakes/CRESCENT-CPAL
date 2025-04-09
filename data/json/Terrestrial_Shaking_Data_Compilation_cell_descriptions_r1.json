@@ -117,57 +117,61 @@
     },
     "Characteristics informative of rupture process Intensity of shaking  Min": {
         "display": "Yes",
-        "description": "The estimated intensity of shaking required to create a shaking proxy at this site. This value may come from the direct reference or from estimated shaking magnitudes for other simlar features worldwide."
+        "description": "The minimum estimated intensity of shaking required to create a shaking proxy at this site. This value may come from the direct reference or from estimated shaking magnitudes for other simlar features worldwide."
     },
     "Characteristics informative of rupture process Intensity of shaking  Max": {
         "display": "Yes",
-        "description": "The estimated duration of shaking required to create a shaking proxy at this site. This value may come from the direct reference or from estimated shaking duration for other simlar features worldwide."
+        "description": "The maximum estimated intensity of shaking required to create a shaking proxy at this site. This value may come from the direct reference or from estimated shaking magnitudes for other simlar features worldwide."
     },
     "Characteristics informative of rupture process Duration of shaking Range": {
         "display": "Yes",
-        "description": "A yes/no entry for whether the feature has an erosive base."
+        "description": "The estimated duration of shaking required to create a shaking proxy at this site. This value may come from the direct reference or from estimated shaking duration for other simlar features worldwide."
     },
     "Characteristics informative of rupture process Erosive base Value": {
         "display": "Yes",
-        "description": "A yes/no entry for whether there is provenance information available for the feature."
+        "description": "A yes/no entry for whether the feature has an erosive base."
     },
     "Characteristics informative of rupture process Provenance Value": {
-        "display": "No",
-        "description": "Reported mean uncalibrated radiocarbon age from the literature in radiocarbon years before present (1950 CE)."
+        "display": "Yes",
+        "description": "A yes/no entry for whether there is provenance information available for the feature."
     },
     "Radiocarbon age Mean": {
         "display": "No",
-        "description": "Reported uncertainty in uncalibrated radiocarbon age from the literature in radiocarbon years before present (1950 CE)."
+        "description": "Reported mean uncalibrated radiocarbon age from the literature in radiocarbon years before present (1950 CE)."
     },
     "Radiocarbon age Uncertainty": {
-        "display": "Yes",
-        "description": "Published minimum calibrated age for candidate paleoseismic evidence in calendar years before present (1950 CE)."
+        "display": "No",
+        "description": "Reported uncertainty in uncalibrated radiocarbon age from the literature in radiocarbon years before present (1950 CE)."
     },
     "Published Event Age Minimum": {
         "display": "Yes",
-        "description": "Published maximum calibrated age for candidate paleoseismic evidence in calendar years before present (1950 CE)."
+        "description": "Published minimum calibrated age for candidate paleoseismic evidence in calendar years before present (1950 CE)."
     },
     "Published Event Age Maximum": {
         "display": "Yes",
+        "description": "Published maximum calibrated age for candidate paleoseismic evidence in calendar years before present (1950 CE)."
+    },
+    "Inferred correlation": {
+        "display": "Yes",
         "description": "The inferred regional turbidite correlation."
     },
-    "Inferred correlation Maximum": {
+    "Age comments": {
         "display": "No",
         "description": "Compiler comments on age information published in primary literature."
     },
-    "Age comments Maximum": {
+    "Inferred most likely evidence source": {
         "display": "Yes",
         "description": "The published most likely source for an event."
     },
-    "Inferred most likely evidence source Maximum": {
+    "Other possible evidence source interpretations": {
         "display": "Yes",
         "description": "The published alternative sources for an event."
     },
-    "Other possible evidence source interpretations Maximum": {
+    "Reference": {
         "display": "Yes",
         "description": "Literature reference for the compiled information."
     },
-    "Reference Maximum": {
+    "Notes": {
         "display": "Yes",
         "description": "Notes from compilers that may be specifically useful for interpreting the paleoseismic evidence compiled for this specific site or event."
     }

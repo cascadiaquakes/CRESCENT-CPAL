@@ -183,11 +183,11 @@
         "display": "Yes",
         "description": "Published maximum calibrated age for candidate paleoseismic evidence in calendar years before present (1950 CE)."
     },
-    "Inferred correlation Maximum": {
+    "Inferred correlation": {
         "display": "Yes",
         "description": "The inferred regional turbidite correlation."
     },
-    "Age comments Maximum": {
+    "Age comments": {
         "display": "No",
         "description": "Compiler comments on age information published in primary literature."
     },
@@ -199,15 +199,15 @@
         "display": "No",
         "description": "The maximum regional event age, as published for compiled onshore and offshore evidence for partial and full margin ruptures, in calendar years BP."
     },
-    "Inferred most likely evidence source Maximum": {
+    "Inferred most likely evidence source": {
         "display": "Yes",
         "description": "The published most likely source for an event."
     },
-    "Reference Maximum": {
+    "Reference": {
         "display": "Yes",
         "description": "Literature reference for the compiled information."
     },
-    "Notes Maximum": {
+    "Notes": {
         "display": "Yes",
         "description": "Notes from compilers that may be specifically useful for interpreting the paleoseismic evidence compiled for this specific site or event."
     }
