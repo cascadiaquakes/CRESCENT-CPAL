@@ -80,7 +80,7 @@
         "description": "A numerical score on the quality of age control, between 0 and 5, based on the material dated."
     },
     "Certainty of earthquake evidence A - Evidence for high-energy marine incursion: A1 - Sedimentology (0.5 pts)": {
-        "display": NaN,
+        "display": "No",
         "description": "A yes/no entry for whether there is sedimentological evidence that the feature was created from high energy marine incursion. If marked yes, this provides 0.5 points towards the Evidence Rank."
     },
     "Certainty of earthquake evidence A - Evidence for high-energy marine incursion: A2 - Marine provenance (0.5 pts):": {
