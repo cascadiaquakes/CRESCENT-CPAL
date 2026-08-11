@@ -36,13 +36,13 @@ python script.py <filename.xlsx>
 For example:
 
 ```bash
-python excel_to_csv_geojson.py Tsunami_Data_Compilation_TLDR.xlsx
+python excel_to_csv_geojson.py Tsunami_Data_Compilation_Condensed.xlsx
 ```
 
 ### Output:
 
-- `Tsunami_Data_Compilation_TLDR.csv` – cleaned CSV version of your data.
-- `Tsunami_Data_Compilation_TLDR.geojson` – GeoJSON file with spatial features (if latitude and longitude columns are present).
+- `Tsunami_Data_Compilation_Condensed.csv` – cleaned CSV version of your data.
+- `Tsunami_Data_Compilation_Condensed.geojson` – GeoJSON file with spatial features (if latitude and longitude columns are present).
 
 ---
 

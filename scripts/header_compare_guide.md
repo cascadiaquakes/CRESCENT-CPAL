@@ -33,7 +33,7 @@ python header_compare.py <data_file.csv> <description_file.csv>
 ### Example:
 
 ```bash
-python header_compare.py Tsunami_Data_Compilation_TLDR.csv Tsunami_Data_Compilation_cell_descriptions.csv
+python header_compare.py Tsunami_Data_Compilation_Condensed.csv Tsunami_Data_Compilation_cell_descriptions.csv
 ```
 
 ---
