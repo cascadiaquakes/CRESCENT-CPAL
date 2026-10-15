@@ -20,7 +20,9 @@ Data and scripts for the Cascadia Paleoseismology Working Group ([CPAL](https://
 - Corresponding JSON files that provide field descriptions and column display controls for the web interface are stored in the `json/` folder.
 - Raw data are available from Staisch, L.M., Witter, R.C., Watt, J.T., Grant, A.R., Walton, M.A., Brothers, D., Davis, E., Dura, C., Engelhart, S., Enkin, R., Garrison-Laney, C.E, Goldfinger, C., Hamilton, T., Hawkes, A., Hill, J.C., Hong, I.J., Jaffe, B.E., Kelsey, H., Lahusen, S.R, La Selle, S.M, Nelson, A.R, Nieminski, N.M, Padgett, J.S, Patton, J., Pearl, J.K, Pilarczyk, J., Sherrod, B., and Stanton, K., 2024, Compiled onshore and offshore paleoseismic data along the Cascadia Subduction zone: U.S. Geological Survey data release, [https://doi.org/10.5066/P13OJQYW](https://doi.org/10.5066/P13OJQYW).
 
-All files located in the /data directory are licensed under the Creative Commons Attribution 4.0 International (CC-BY-4.0) license.
+- Coastal flooding polygons from Dura et al. (2025), [https://doi.org/10.1073/pnas.2424659122](https://doi.org/10.1073/pnas.2424659122), are in `geojson/subsidence/`. See its [README](data/geojson/subsidence/README.md) for sources and terms.
+
+All files located in the /data directory, except `geojson/subsidence/`, are licensed under the Creative Commons Attribution 4.0 International (CC-BY-4.0) license.
 
 ### Scripts
 
@@ -32,7 +34,7 @@ All software scripts in this repository are licensed under the BSD 3-Clause Lice
 
 ## License
 
-Files in `data/` are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), see [LICENSE-CC4.0](LICENSE-CC4.0). The scripts are licensed under the BSD 3-Clause License, see [LICENSE-BSD3](LICENSE-BSD3).
+Files in `data/` are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), see [LICENSE-CC4.0](LICENSE-CC4.0), except `data/geojson/subsidence/`, which follows its original authors' terms. The scripts are licensed under the BSD 3-Clause License, see [LICENSE-BSD3](LICENSE-BSD3).
 
 ---
 
