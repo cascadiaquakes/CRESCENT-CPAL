@@ -22,3 +22,16 @@ Each file has one feature per estuary with `estuary`, `year`, `scenario` (added 
 ## How they were made
 
 [`scripts/subsidence_to_geojson.py`](../../../scripts/subsidence_to_geojson.py) reads the geodatabases, merges each estuary's layers, simplifies them to about 15 m, drops slivers under 2000 m², and writes WGS84 GeoJSON.
+
+## Map tiles
+
+The viewer draws the flooding from PNG map tiles (zoom 8 to 16), rendered at full resolution by [`scripts/subsidence_to_tiles.py`](../../../scripts/subsidence_to_tiles.py). The GeoJSON here is only used to answer clicks. The tiles are too many to keep in git, so they live in an S3 bucket served through CloudFront, defined in [`infra/subsidence_tiles`](../../../infra/subsidence_tiles).
+
+To rebuild and upload them:
+
+```bash
+python scripts/subsidence_to_tiles.py <folder with CascadiaPart*.gdb> tiles --workers 2
+aws s3 sync tiles s3://<BucketName>/subsidence --exclude "_prep/*" --size-only --cache-control "public, max-age=604800"
+```
+
+`BucketName` and the tiles URL are outputs of the `CpalSubsidenceTiles` stack (`cd infra/subsidence_tiles && cdk deploy`).
